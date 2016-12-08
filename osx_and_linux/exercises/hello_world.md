@@ -138,16 +138,18 @@ Your code should now look something like:
 
 Steps:
 
-Now if you run your script without any args it will still work, but it will have a random space
-for no good reason: "Hello !". So we should set a default which will be called whenever our script
-determines that there are no args present.
+Now if you run your script without any args it will still work, but it will have a random space: "Hello !".
+So we should set a default which will be called whenever our script determines that there are no args present.
+
 `if/else` statements are used in all programming languages to set a logical sequence of events.
+
 `if` a condition exists `then` do one thing, `else` do another thing.
 
 1. Open your script again.
 2. We need to check if the `name` variable has been set. There are several ways to do this and you can
 google for the variations. We are going to use `-n` right now.
 So in our code, somewhere under our function, we can enter:
+
   ```
   if [[ -n $name ]]; then
     say_hello
@@ -155,6 +157,7 @@ So in our code, somewhere under our function, we can enter:
     echo "Hello World!"
   fi
   ```
+
 3. Save and run.
 4. But why are we using `echo` again when we already have a function which does that?
 Edit your function so that it will take its own args, specifically the first one. As args are

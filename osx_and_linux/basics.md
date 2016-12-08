@@ -19,12 +19,14 @@ Then run `pwd`. You should see `/Users/<your_name>/shell-tutorial`.
 Now we're going to find out what exactly you just made happen.
 
 The following commands are the ones you will end up using every day to do basic stuff.
-Type each one into your terminal, play around and see what they do. Do not worry about breaking stuff.
-It would be very, very hard for anything to go wrong with these commands. Some of them are designed
-to throw errors, but don't panic. Either ask for help, hit google, or just type something that makes
+As we talk through them, type each one into your terminal, play around and see what they do.
+
+Do not worry about breaking stuff. It would be very, very hard for anything to go wrong with these commands.
+Some of them are designed to throw errors, but don't panic. Either ask for help, hit google, or just type something that makes
 sense to you; the shell we are using (bash) is for the most part quite intuitive and, again, it is
-very hard to break anything using these commands. Take notes if you want, type them (and I mean type;
-no copy-pasting) until you are comfortable with what they do.
+very hard to break anything using these commands.
+
+Take notes if you want, type them (and I mean type; no copy-pasting) until you are comfortable with what they do.
 ```
 ls
 
