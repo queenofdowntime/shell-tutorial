@@ -135,15 +135,14 @@ Your code should now look something like:
 
 
 ## Part 4: say "Hello \<name\>!" or "Hello World!"
-
-Steps:
-
 Now if you run your script without any args it will still work, but it will have a random space: "Hello !".
 So we should set a default which will be called whenever our script determines that there are no args present.
 
 `if/else` statements are used in all programming languages to set a logical sequence of events.
 
 `if` a condition exists `then` do one thing, `else` do another thing.
+
+Steps:
 
 1. Open your script again.
 2. We need to check if the `name` variable has been set. There are several ways to do this and you can

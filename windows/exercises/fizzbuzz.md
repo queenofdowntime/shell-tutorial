@@ -21,7 +21,7 @@ C:\> .\fizzbuzz 7
 7 :(
 ```
 
-To complete this task you will need to learn about [modular arithmetic](https://betterexplained.com/articles/fun-with-modular-arithmetic/),[comparison operators](http://ss64.com/ps/syntax-compare.html),
+To complete this task you will need to learn about [modular arithmetic](https://betterexplained.com/articles/fun-with-modular-arithmetic/), [comparison operators](http://ss64.com/ps/syntax-compare.html),
 [command substitution](http://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html#tag_02_06_03) and maybe a bit more about [if/else statements](https://blog.udemy.com/powershell-if-else/).
 
 ### Challenge Yourself!

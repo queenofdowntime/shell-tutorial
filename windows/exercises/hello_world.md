@@ -52,8 +52,8 @@ a function. Functions are ways to abstract code into useful and re-usable chunks
 related commands that perform a single, specific task.
 2. On an empty line above your `echo`/`Write-Host`, choose a name for your function. `Say-HelloWorld` seems like a
 good choice. Function names should be as clear and descriptive as possible, while simultaneously
-concise. Bash function declarations are indicated by simply writing `function <name> {}`. Function names tend
-to be capitalised, with `-`s in the place of natural spaces.
+concise. Powershell function declarations are indicated by simply writing `function <name> {}`. Function names tend
+to be capitalised, with dashes(`-`) in the place of natural spaces.
 3. The original "Hello World" statement should sit between the set of curly braces:
 
   ```
@@ -86,7 +86,7 @@ Vars are then called by using `$`: for example, `echo $cats` will return `better
 You can try that out on the Powershell command line.
 2. Open `hello.ps1`.
 3. First, we need to declare which params we will allow to be passed to our script.
-Params must by the very first bit of executable code in scripts, so putting them at the top makes sense.
+Params must be the very first bit of executable code in scripts, so putting them at the top makes sense.
 The parameter definition area follows this format:
 
   ```
@@ -124,21 +124,21 @@ Your code should now look something like:
 
 
 ## Part 4: say "Hello \<name\>!" or "Hello World!"
+Now if you run your script without any args it will still work, but it will have a random space: "Hello !".
+So we should set a default which will be called whenever our script determines that there are no args present.
+
+`if/else` statements are used in all programming lanuages to set a logical sequence of events.
+
+`if` a condition exists `then` do one thing, `else` do another thing.
 
 Steps:
 
-Now if you run your script without any args it will still work, but it will have a random space: "Hello !".
-So we should set a default which will be called whenever our script determines that there are no args present.
-There are two ways to do this in Powershell; built-in params and `if/else` statements.
-To set the param default, just add ` = "World"` after `[string]$name`.
-But we want to learn more cool stuff so we are going to do the other thing.
-`if/else` statements are used in all programming lanuages to set a logical sequence of events.
-`if` a condition exists `then` do one thing, `else` do another thing.
-
 1. Open your script again.
 2. We need to check if the `name` variable has been set. There are several ways to do this and you can
-google for the variations. We are going to use `-ne` right now.
-So in our code, somewhere under our function, we can enter:
+google for the variations. We are going to do the simplest thing right now. If a param has not been set,
+is will return `False` when queried.
+
+  So in our code, somewhere under our function, we can enter:
 
   ```
   if ($name) {
