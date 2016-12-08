@@ -45,6 +45,9 @@ cat ~/.ssh/id_rsa.pub | pbcopy
 9. Login to Github in a browser. Go to `Settings > SSH and GPG keys > New SSH key / Add SSH key`.
 10. Fill in the form fields with a name and your copied public key and click save.
 
+## Atom
+1. Go to [atom.io](https://atom.io/) and follow the installation instructions.
+
 ## Clone this repo
 If you have set things up successfully you are now ready to clone this repo and get to work!
 ```

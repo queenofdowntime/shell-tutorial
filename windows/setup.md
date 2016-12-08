@@ -41,6 +41,9 @@ git config --global user.name "YOUR GITHUB USERNAME / ACTUAL NAME".
 
 [more info](http://guides.beanstalkapp.com/version-control/git-on-windows.html)
 
+## Atom
+1. Go to [atom.io](https://atom.io/) and follow the installation instructions.
+
 ## Clone this repo
 If you have set things up successfully you are now ready to clone this repo and get to work!
 ```
