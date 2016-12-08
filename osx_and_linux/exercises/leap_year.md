@@ -68,7 +68,10 @@ returns an exit code of zero:
 
 #### Pop Quiz:
 
-What will the following return:
+What will the following return?
+
+NB: you won't actually be able to run these on the command line,
+they are just a logical exercise.
 
 ```
 !true && true
