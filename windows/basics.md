@@ -4,12 +4,14 @@ If you were able to set up git correctly, run:
 ```
 git clone https://github.com/fouralarmfire/shell-tutorial
 cd shell-tutorial
+mkdir code
+cd code
 ```
 
 If not run:
 ```
-mkdir shell-tutorial
-cd shell-tutorial
+mkdir shell-tutorial\code
+cd shell-tutorial\code
 ```
 
 Then run `pwd`. You should see `C:\Users\<your_name>\shell-tutorial`.
@@ -25,72 +27,59 @@ sense to you; again, it is very hard to break anything using these commands.
 
 Take notes if you want, type them (and I mean type; no copy-pasting) until you are comfortable with what they do.
 ```
-New-Item file
-
-Get-Process
-
-Write-Host (echo)
-
-set
-
-echo
-
-help
-
-select-string
-
-cd
-
-mkdir <new dir>
-
-mkdir <dirname>/<a>/<b>/<c>
-
-cd <new dir>
+pwd
 
 ls
 
-cd ..
+dir
 
 dir -r
 
-forfiles
+mkdir apples
 
-type
+mkdir apples\oranges\pears\bananas
 
-more
+cd
 
-mv
+cd apples
 
-robocopy
+cd ..
 
-cp
-
-copy
-
-cat
-
-cat file,file2
-
-del
-
-copy <dir>\* <new dir>
+pushd apples\oranges\pears\bananas
 
 popd
 
-pushd
+New-Item cake
 
-rmdir
+cp cake another-cake
+
+copy cake apples\oranges\cookie
+
+cat cake
+
+cat cake,another-cake
+
+mv cake ice-cream
+
+more ice-cream
+
+rm ice-cream
+
+del another-cake
+
+rmdir apples
+
+Write-Host hello!
+
+echo hello!
+
+help
 
 hostname
 
-pwd
+Get-Process
 
 exit
-
-forfiles
-runas
-attrib
-icalcs
 ```
 
 more [Cmdlets and Functions](http://www.adminarsenal.com/powershell/)
