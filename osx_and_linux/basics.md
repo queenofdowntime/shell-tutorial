@@ -5,13 +5,15 @@ If you were able to set up git correctly, copy and paste the following into your
 cd ~
 git clone https://github.com/fouralarmfire/shell-tutorial
 cd shell-tutorial
+mkdir code
+cd code
 ```
 
 If not run:
 ```
 cd ~
-mkdir shell-tutorial
-cd shell-tutorial
+mkdir -p shell-tutorial/code
+cd shell-tutorial/code
 ```
 
 Then run `pwd`. You should see `/Users/<your_name>/shell-tutorial`.
@@ -28,6 +30,8 @@ very hard to break anything using these commands.
 
 Take notes if you want, type them (and I mean type; no copy-pasting) until you are comfortable with what they do.
 ```
+pwd
+
 ls
 
 ls -a
@@ -36,55 +40,57 @@ ls -l
 
 ls -lR
 
-hostname
+mkdir apples
 
-mkdir <dirname>
-
-mkdir -p <dirname>/<a>/<b>/<c>
+mkdir -p apples/oranges/pears/bananas
 
 cd
 
 cd -
 
-cd <dirname>
+cd apples
 
 cd ..
 
-pushd <dirname>
+pushd apples/oranges/pears/bananas
 
 popd
 
-rmdir <dirname>
+touch cake
 
-rm -rf <dirname>
+cp cake another_cake
 
-touch <new_file>
+cp cake apples/oranges/cookie
 
-cp <new_file> <copied_new_file>
+rm cake
 
-cp <current/location/of/new_file> <different/location/of/new_file>
+rm -rf apples
 
-rm <new_file>
+cat > chocolate
 
-cat > <new_file>
+cat chocolate
 
-cat <new_file>
+cat >> chocolate
 
-cat >> <new_file>
+echo foo > awesome
 
-echo foo > <new_file>
+echo foo >> awesome
 
-echo foo >> <new_file>
+cat chocolate awesome
 
-grep <search_term> <filename>
+mv chocolate ice-cream
 
-less <filename>
+grep <search_term> awesome
 
-env
+less awesome
 
 export NAME=<your_name>
 
 echo $NAME
+
+echo hello $NAME
+
+env
 
 find . -name "*.md"
 
@@ -110,10 +116,14 @@ clear
 
 history
 
+hostname
+
 ps
 
 sudo
+
 chmod
+
 chown
 ```
 
