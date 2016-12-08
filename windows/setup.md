@@ -25,6 +25,19 @@ If you are having problems, ask for help or more info can be found [here](http:/
 1. If you follwed the steps for Windows versions earlier than 10, follow the installation instructions [here](https://git-for-windows.github.io/),
 and say yes to defaults during the installation (ask for help if not sure). At the end select `Launch git`, which should open a bash emulator app.
 2. If you follwed the steps for Windows 10, and are running the Linux subsystem, run `apt-get install -y git`.
+3. Sign up for [Github](https://github.com/) if you have not already done so.
+4. Run the following two commands.
+```
+git config --global user.email "YOUR EMAIL ADDRESS".
+git config --global user.name "YOUR GITHUB USERNAME / ACTUAL NAME".
+```
+5. Run `ssh-keygen -t rsa -b 4096 -C "YOUR EMAIL ADDRESS"`. (Hit return to any prompts until complete.)
+6. Start the SSH agent with `eval "$(ssh-agent -s)"`.
+7. Add your new key to the agent: `ssh-add ~/.ssh/id_rsa`.
+8. Copy your public key to the clipboard.
+9. Login to Github in a browser. Go to `Settings > SSH and GPG keys > New SSH key / Add SSH key`.
+10. Fill in the form fields with a name and your copied public key and click save.
+
 
 [more info](http://guides.beanstalkapp.com/version-control/git-on-windows.html)
 
