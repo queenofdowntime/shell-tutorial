@@ -89,5 +89,6 @@ false || echo hey!
 ```
 
 ### Challenge Yourself!
+- Set a default for when no year is passed to your script.
 - Write a for-loop to run your leap-year calculator against every year in the last century.
   - make sure you print out which years are and aren't.

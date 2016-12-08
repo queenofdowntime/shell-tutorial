@@ -25,6 +25,7 @@ To complete this task you will need to know about [modular arithmetic](https://b
 [operators](https://www.tutorialspoint.com/unix/unix-basic-operators.htm), [command substitution](http://pubs.opengroup.org/onlinepubs/009695399/utilities/xcu_chap02.html#tag_02_06_03) and maybe a bit more about [if/else statements](http://ryanstutorials.net/bash-scripting-tutorial/bash-if-statements.php).
 
 ### Challenge Yourself!
+- Set a default message for when no number is passed to your script.
 - Write a for-loop to run your fizzbuzz against all numbers 1-1000000
   - make sure you also print out which number says what
 
