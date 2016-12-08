@@ -34,9 +34,13 @@ ls -a
 
 ls -l
 
+ls -lR
+
 hostname
 
 mkdir <dirname>
+
+mkdir -p <dirname>/<a>/<b>/<c>
 
 cd
 
@@ -44,11 +48,15 @@ cd -
 
 cd <dirname>
 
-rmdir <dirname>
+cd ..
 
 pushd <dirname>
 
 popd
+
+rmdir <dirname>
+
+rm -rf <dirname>
 
 touch <new_file>
 
@@ -103,9 +111,15 @@ clear
 history
 
 ps
+
+sudo
+chmod
+chown
 ```
 
 [source](https://learnpythonthehardway.org/book/appendix-a-cli/ex1.html)
+
+[bash cheat sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 
 ## Next
 Write your [first program](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/hello_world.md).
