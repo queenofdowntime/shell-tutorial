@@ -12,7 +12,7 @@ mkdir shell-tutorial
 cd shell-tutorial
 ```
 
-Then run `pwd`. You should see `C:\>/shell-tutorial`.
+Then run `pwd`. You should see `C:\Users\<your_name>\shell-tutorial`.
 
 Now we're going to find out what exactly you just made happen.
 
@@ -25,25 +25,31 @@ sense to you; again, it is very hard to break anything using these commands.
 
 Take notes if you want, type them (and I mean type; no copy-pasting) until you are comfortable with what they do.
 ```
-New-Edit <new_file>
+New-Item file
 
 Get-Process
 
 Write-Host (echo)
 
-runas
-
-exit
-
 set
 
 echo
 
-helpctr
-
 help
 
 select-string
+
+cd
+
+mkdir <new dir>
+
+mkdir <dirname>/<a>/<b>/<c>
+
+cd <new dir>
+
+ls
+
+cd ..
 
 dir -r
 
@@ -59,92 +65,35 @@ robocopy
 
 cp
 
+copy
+
+cat
+
+cat file,file2
+
+del
+
+copy <dir>\* <new dir>
+
 popd
 
 pushd
 
 rmdir
 
-ls
-
 hostname
 
 pwd
+
+exit
+
+forfiles
+runas
+attrib
+icalcs
 ```
 
-
-
-
-
-
-
-```
-ls
-
-ls -a
-
-ls -l
-
-hostname
-
-mkdir <dirname>
-
-cd
-
-cd <dirname>
-
-rmdir <dirname>
-
-pushd <dirname>
-
-popd
-
-cp <from> <to>
-
-mv <from> <to>
-
-cat > <new_file>
-
-type <new_file>
-
-cat >> <new_file>
-
-rm <new_file>
-
-echo foo > file
-
-echo foo >> file
-
-grep <search_term> <filename>
-
-more <filename>
-
-env
-
-export NAME=<your_name>
-
-echo $NAME
-
-find . -name "*.md"
-
-find . -name "*.md" | wc
-
-sort --help
-
-find . -name "*.md" | <correct sort command>
-
-xargs
-
-echo hello | xargs
-
-xargs < <filename>
-
-find . -name "*.md" | xargs cat
-
-find . -name "*.md" | xargs more
-
-man
-```
+more [Cmdlets and Functions](http://www.adminarsenal.com/powershell/)
 
 [source](https://learnpythonthehardway.org/book/appendix-a-cli/ex1.html)
 
