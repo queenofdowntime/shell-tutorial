@@ -30,4 +30,4 @@ To complete this task you will need to know about [modular arithmetic](https://b
   - make sure you also print out which number says what
 
 ## Next:
-Learn how to calculate a [Leap Year](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/leap_year.md).
+Learn how to calculate a [Leap Year](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/leap_year.md#leap-year).

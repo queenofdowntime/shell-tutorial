@@ -131,5 +131,5 @@ chown
 [bash cheat sheet](https://learncodethehardway.org/unix/bash_cheat_sheet.pdf)
 
 ## Next
-Write your [first program](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/hello_world.md).
+Write your [first program](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/hello_world.md#hello-world).
 

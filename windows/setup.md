@@ -17,7 +17,6 @@ Check the box for `Windows Subsystem for Linux (Beta)` and click `OK`.
 7. After the reboot, click `Start`, type `bash` and hit return/enter.
 8. The first time you open this it will ask you to agree to terms of service and create an account with a password.
 9. Finally, click `Start` and type `bash` or `ubuntu` to open the shell.
-3. Now you can setup [git](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/setup.md#git).
 
 If you are having problems, ask for help or more info can be found [here](http://www.howtogeek.com/249966/how-to-install-and-use-the-linux-bash-shell-on-windows-10/)
 
@@ -53,8 +52,8 @@ Don't worry if you weren't able to setup git properly, it's not strictly necessa
 be able to continue just fine.
 
 ## Next:
-[Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md) for Windows 10 with Linux Subshell
+[Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md#basic-commands) for Windows 10 with Linux Subshell
 
 Or:
 
-[Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/basics.md) for Windows < 10 or v10 without Linux Subshell
+[Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/basics.md#basic-commands) for Windows < 10 or v10 without Linux Subshell

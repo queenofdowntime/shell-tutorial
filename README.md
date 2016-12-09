@@ -43,27 +43,27 @@ Start from the `Setup` and follow each exercise through. Don't rush; make sure y
 happening before you move on because each step builds upon the previous lessons.
 
 ### Windows 10
-- [Setup](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/setup.md#windows-10)
-- [Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md)
+- [Setup](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/setup.md#windows-setup)
+- [Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md#basic-commands)
 - Exercises:
-  1. [Hello World](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/hello_world.md)
-  2. [Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/fizzbuzz.md)
-  3. [Leap Year](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/leap_year.md)
+  1. [Hello World](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/hello_world.md#hello-world)
+  2. [Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/fizzbuzz.md#fizzbuzz)
+  3. [Leap Year](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/leap_year.md#leap-year)
 
 
 ### Windows (versions earlier than 10)
-- [Setup](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/setup.md#windows--v10)
-- [Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/basics.md)
+- [Setup](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/setup.md#windows-setup)
+- [Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/basics.md#basic-commands)
 - Exercises:
-  1. [Hello World](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/hello_world.md)
-  2. [Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/fizzbuzz.md)
-  3. [Leap Year](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/leap_year.md)
+  1. [Hello World](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/hello_world.md#hello-world)
+  2. [Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/fizzbuzz.md#fizzbuzz)
+  3. [Leap Year](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/leap_year.md#leap-year)
 
 
 ### OSX/Linux
-- [Setup](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/setup.md)
-- [Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md)
+- [Setup](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/setup.md#mac-osx-setup)
+- [Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md#basic-commands)
 - Exercises:
-  1. [Hello World](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/hello_world.md)
-  2. [Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/fizzbuzz.md)
-  3. [Leap Year](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/leap_year.md)
+  1. [Hello World](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/hello_world.md#hello-world)
+  2. [Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/fizzbuzz.md#fizzbuzz)
+  3. [Leap Year](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/leap_year.md#leap-year)

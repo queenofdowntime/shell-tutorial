@@ -11,6 +11,8 @@ C:\> ./hello
 Hello World!
 ```
 
+To complete this task you will need to have learned the [Basics](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/basics.md#basic-commands).
+
 ## Part 1: say "Hello World!"
 
 Steps:
@@ -19,7 +21,7 @@ Steps:
 2. Open the file in a text editor (like Notepad).
 3. At this point our program is very simple; when executed we want it to print `Hello World!` to
 the terminal.
-Looking back at our list of [basic commands](), we have a choice between `echo` and `Write-Host`:
+Looking back at our list of [basic commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/basics.md#basic-commands), we have a choice between `echo` and `Write-Host`:
 
   `echo "Hello World!"`
   or
@@ -187,5 +189,5 @@ Optional tasks you can investigate, research and solve on your own.
 - Passing in an uncaplitalised name? Figure out how to capitalise it.
 
 ## Next:
-[Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/fizzbuzz.md)!
+[Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/fizzbuzz.md#fizzbuzz)!
 

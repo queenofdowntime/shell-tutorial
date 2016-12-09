@@ -68,4 +68,4 @@ be able to continue just fine.
 
 
 ## Next:
-[Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md)
+[Basic Commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md#basic-commands)

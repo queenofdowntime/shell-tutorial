@@ -124,5 +124,5 @@ more [Cmdlets and Functions](http://www.adminarsenal.com/powershell/)
 [source](https://learnpythonthehardway.org/book/appendix-a-cli/ex1.html)
 
 ## Next:
-Write your [first program](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/hello_world.md).
+Write your [first program](https://github.com/fouralarmfire/shell-tutorial/blob/master/windows/exercises/hello_world.md#hello-world).
 

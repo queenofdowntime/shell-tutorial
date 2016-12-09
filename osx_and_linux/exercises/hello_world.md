@@ -11,7 +11,7 @@ $ ./hello
 Hello World!
 ```
 
-To complete this task you will need to have learned the [Basics](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md).
+To complete this task you will need to have learned the [Basics](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md#basic-commands).
 
 ## Part 1: say "Hello World!"
 
@@ -25,7 +25,7 @@ Steps:
 and bash.)
 4. Beneath that we can write our program, which at this point is just a single bash
 command. When we execute this script we want it to print "Hello World!" to the terminal.
-Looking back at our list of [basic commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md), `echo` is the one we want:
+Looking back at our list of [basic commands](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md#basic-commands), `echo` is the one we want:
 `echo "Hello World!"`
 5. Save the file and go to your terminal.
 6. Programs (which are not on the $PATH) are executed by prefixing `./` to the filename.
@@ -192,4 +192,4 @@ Optional tasks you can investigate, research and solve on your own.
 - Passing in an uncaplitalised name? Figure out how to capitalise it.
 
 ## Next:
-[Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/fizzbuzz.md)!
+[Fizzbuzz](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/exercises/fizzbuzz.md#fizzbuzz)!
