@@ -117,6 +117,12 @@ exit
 
 Extras to research
 ```
+alias
+
+curl
+
+wget
+
 xargs
 
 sudo
