@@ -59,6 +59,10 @@ cat cake
 
 cat cake,another-cake
 
+Get-Content cake
+
+Select-String -Path "*.md" -Pattern "the"
+
 mv cake ice-cream
 
 more ice-cream
@@ -73,13 +77,46 @@ Write-Host hello!
 
 echo hello!
 
+forfiles /S /M *.md /C "cmd /c echo @path @fdate"
+
+forfiles /M * /C "cmd /c if @isdir==TRUE echo @file"
+
 help
+
+man
+
+Get-Help <command>
+
+Get-Command
+
+clear
 
 hostname
 
 Get-Process
 
+Stop-Process -id <pid>
+
 exit
+```
+
+Extras to research
+```
+/?
+
+&
+
+cmd /c
+
+Invoke-Expression
+
+icalcs
+
+attrib
+
+runas
+
+robocopy
 ```
 
 more [Cmdlets and Functions](http://www.adminarsenal.com/powershell/)

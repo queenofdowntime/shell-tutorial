@@ -100,16 +100,6 @@ sort --help
 
 find . -name "*.md" | <correct sort command>
 
-xargs
-
-echo hello | xargs
-
-xargs < <filename>
-
-find . -name "*.md" | xargs cat
-
-find . -name "*.md" | xargs less
-
 man
 
 clear
@@ -119,6 +109,15 @@ history
 hostname
 
 ps
+
+kill -9 <pid>
+
+exit
+```
+
+Extras to research
+```
+xargs
 
 sudo
 
