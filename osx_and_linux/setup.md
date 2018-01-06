@@ -57,7 +57,8 @@
 1. Go to [atom.io](https://atom.io/) and follow the installation instructions.
 
 ## Clone this repo
-If you have set things up successfully you are now ready to clone this repo and get to work!
+If you have set things up successfully you are now ready to get to work!
+Clone this repo to have access to the tutorial offline.
 ```
 git clone https://github.com/fouralarmfire/shell-tutorial
 ```
