@@ -20,7 +20,7 @@
   git --version
   ```
 
-2. Sign up for [Github](https://github.com/) if you have not already done so.
+2. Sign up for [Github](https://github.com/) if you have not already done so, and complete their beginner's guide.
 3. Run the following two commands.
 
   ```
