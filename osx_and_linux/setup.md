@@ -11,15 +11,6 @@
 
 2. Click `install`, `agree` and `done` when the various pop-ups appear.
 
-## Homebrew
-1. Copy and paste into your terminal
-
-  ```
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-  ```
-
-2. Run `brew doctor`: it should return `Your system is ready to brew`.
-
 ## git
 1. Run:
 
@@ -52,6 +43,15 @@
 
 9. Login to Github in a browser. Go to `Settings > SSH and GPG keys > New SSH key / Add SSH key`.
 10. Fill in the form fields with a name and your copied public key and click save.
+
+## Homebrew
+1. Copy and paste into your terminal
+
+  ```
+  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  ```
+
+2. Run `brew doctor`: it should return `Your system is ready to brew`.
 
 ## Atom
 1. Go to [atom.io](https://atom.io/) and follow the installation instructions.
