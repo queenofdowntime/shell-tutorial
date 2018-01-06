@@ -16,12 +16,13 @@ To complete this task you will need to have learned the [Basics](https://github.
 The first thing you need to do is create a new repository:
 
 ```
-cd ~ # put yourself back into the 'home' directory
+cd ~
 mkdir -p workspace/hello-world
 cd workspace/hello-world
-git init # don't forget to create a new repository online too
+git init
 ```
-
+Don't forget to create a new repository online too.
+ 
 ## Part 1: say "Hello World!"
 
 Steps:
