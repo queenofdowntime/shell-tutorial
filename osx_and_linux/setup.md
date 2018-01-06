@@ -24,8 +24,8 @@
 3. Run the following two commands.
 
   ```
-  git config --global user.email "YOUR EMAIL ADDRESS".
-  git config --global user.name "YOUR GITHUB USERNAME / ACTUAL NAME".
+  git config --global user.email "YOUR EMAIL ADDRESS"
+  git config --global user.name "YOUR GITHUB USERNAME / ACTUAL NAME"
   ```
 
 4. Check for existing SSH keys with `ls -al ~/.ssh`.
