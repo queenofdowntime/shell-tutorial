@@ -7,18 +7,16 @@
 4. Type `cmd` + `,` to set colourscheme, font and other preferences.
 
 ## Command Line Tools
-1. Copy and paste into your terminal
+1. Copy and paste the following into your terminal and press Enter:
 
   `xcode-select --install`
 
 2. Click `install`, `agree` and `done` when the various pop-ups appear.
 
 ## git
-1. Run:
+1. Type the following into your terminal and press Enter:
 
   ```
-  brew update
-  brew install git
   git --version
   ```
 
