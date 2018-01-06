@@ -21,7 +21,7 @@ mkdir -p workspace/hello-world
 cd workspace/hello-world
 git init
 ```
-Don't forget to create a new repository online too.
+Don't forget to create a new repository online too (initialise without a README this time).
  
 ## Part 1: say "Hello World!"
 
