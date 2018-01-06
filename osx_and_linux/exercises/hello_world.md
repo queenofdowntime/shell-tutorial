@@ -13,15 +13,15 @@ Hello World!
 
 To complete this task you will need to have learned the [Basics](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md#basic-commands).
 
-The first thing you need to do is create a new repository:
+The first thing you need to do is create a new repository. Don't forget to create a new repository online too (initialise without a README this time).:
 
 ```
 cd ~
 mkdir -p workspace/hello-world
 cd workspace/hello-world
 git init
+git remote add origin <link-to-where-your-repo-is-online>
 ```
-Don't forget to create a new repository online too (initialise without a README this time).
  
 ## Part 1: say "Hello World!"
 
