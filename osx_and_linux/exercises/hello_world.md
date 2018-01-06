@@ -13,6 +13,15 @@ Hello World!
 
 To complete this task you will need to have learned the [Basics](https://github.com/fouralarmfire/shell-tutorial/blob/master/osx_and_linux/basics.md#basic-commands).
 
+The first thing you need to do is create a new repository:
+
+```
+cd ~ # put yourself back into the 'home' directory
+mkdir -p workspace/hello-world
+cd workspace/hello-world
+git init # don't forget to create a new repository online too
+```
+
 ## Part 1: say "Hello World!"
 
 Steps:
@@ -66,6 +75,14 @@ which are:
 
 7. Now that we have an executable script, `./hello` should print our greeting.
 
+8. This seems like a good place for a first commit!
+```
+git status
+git add hello
+git commit -m "first commit - say hello"
+git push -u origin master
+```
+
 You can read more about file permissions [here](https://www.linux.com/learn/understanding-linux-file-permissions).
 
 
@@ -100,8 +117,7 @@ This is because we are not actually calling that function we declared.
 and see what happens.
 Bash is procedural and will read the file line by line top-down; if you call a function before
 it has had a chance to read it, it will obviously be unable to run it.
-
-
+8. Time for another commit?
 
 ## Part 3: say "Hello \<name\>!"
 
@@ -131,7 +147,7 @@ Your code should now look something like:
   say_hello
   ```
 5. Save and run, this time passing in a name: `./hello Emma`
-
+6. Don't forget to commit!
 
 
 ## Part 4: say "Hello \<name\>!" or "Hello World!"
@@ -178,6 +194,7 @@ we pass `$name`, if it exists, or `"World"` if it does not:
     say_hello "World"
   fi
   ```
+5. Commit and push your masterpiece for all the world to admire!
 
 Obviously this is an unecessarily complicated implementaion, but it will set you up with some of
 the tools you need for the next exercises.
